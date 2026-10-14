@@ -1,0 +1,7 @@
+{
+  "name": "SecurityApp Medellín",
+  "description": "Plataforma de analítica predictiva, cartografía de seguridad urbana y semáforo táctico de 7 niveles para Medellín.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

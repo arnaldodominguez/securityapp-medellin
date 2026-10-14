@@ -1,0 +1,6 @@
+{
+  "summary": "Plan de implementación para la integración de GPS en tiempo real, detección de comunas por semáforo de 3 colores (1=Rojo, 2=Amarillo, 3=Verde, 4=Sin GPS), cartografía real con OpenStreetMap, y enlace Bluetooth BLE con ESP32-C3 mini con notificaciones de conectividad.",
+  "updatedAt": "2026-10-14T00:19:53.488179641Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

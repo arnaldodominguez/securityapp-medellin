@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Blue Tactical Shield Outer Border -->
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M54,22 L76,31 C76,51 68,69 54,78 C40,69 32,51 32,31 Z" />
+    <!-- Shield Inner Fill -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M54,25 L73,33 C73,50 66,66 54,74 C42,66 35,50 35,33 Z" />
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M54,26 L71,34 C71,49 65,64 54,72 C43,64 37,49 37,34 Z" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M54,28 L69,35 C69,48 64,62 54,69 C44,62 39,48 39,35 Z" />
+
+    <!-- Tactical outer ring -->
+    <path
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="1"
+        android:pathData="M54,34 A17,17 0 1,0 54,68 A17,17 0 1,0 54,34 Z" />
+
+    <!-- 7-Level Semaphore Arc (Green to Red Gauge) -->
+    <!-- Green Arc -->
+    <path
+        android:strokeColor="#10B981"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M42,59 A13,13 0 0,1 42,43" />
+    <!-- Yellow / Amber Arc -->
+    <path
+        android:strokeColor="#EAB308"
+        android:strokeWidth="3.5"
+        android:pathData="M42,43 A13,13 0 0,1 54,38" />
+    <!-- Orange Arc -->
+    <path
+        android:strokeColor="#F97316"
+        android:strokeWidth="3.5"
+        android:pathData="M54,38 A13,13 0 0,1 65,45" />
+    <!-- Crimson Red Arc -->
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M65,45 A13,13 0 0,1 63,58" />
+
+    <!-- Radar Sweep Hand (Red needle pointing to alert zone) -->
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M54,51 L64,43" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M64,43 A2.5,2.5 0 1,0 64,38 A2.5,2.5 0 1,0 64,43 Z" />
+
+    <!-- Central Target / Status Beacon -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,55 A4,4 0 1,0 54,47 A4,4 0 1,0 54,55 Z" />
+</vector>
